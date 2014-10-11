@@ -10,14 +10,19 @@
 					<section id="content">
 						<div class="thb-text">
 							{{{content}}}
+							{{#more}}
+								<div class="brm">
+								{{{more}}}
+								</div><a href="#" class="brm-more-link">(more)</a>
+							{{/more}}
 						</div>
 					</section>
 			
 					{{> aside}}
 
-				</div><!-- /.wrapper -->
-			</section><!-- /#content -->
+				</div>
+			</section>
 				
 			{{> footer }}
-		</div><!-- /#page -->
+		</div>
 {{> footerscripts }}

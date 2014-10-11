@@ -44,4 +44,4 @@ Since 2002 Ursa Maior has been created performances for children and for adults,
 
 Ursa Maior projects have been supported in the years by National Agency of the European Union, the Committee for Equal Opportunities of Padua University, Fondazione del Monte di Bologna e Ravenna, Coop Adriatica, Rosa Luxemburg Foundation of Berlino, Women Centre of Bologna, Bologna Bookfair for children, Italian Cultural Institute of London.
 
-[![facebook](/wp-content/uploads/2013/10/facebook-160x160.png)](https://www.facebook.com/ursamaiorteatro) [![twitter_logo1-Copy](/wp-content/uploads/2013/10/twitter_logo1-Copy-160x160.png)](https://twitter.com/ursamaiorteatro)
+[![](/img/facebook_medium.png)](https://www.facebook.com/ursamaiorteatro) [![](/img/twitter_medium.png)](https://twitter.com/ursamaiorteatro)

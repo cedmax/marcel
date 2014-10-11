@@ -1,8 +1,9 @@
 {
 	"site-title": "Marcel",
+	"seo": "Marcel",
+	"tagline":"Marcel is an outcry of grief.",
 	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
 	"navbar": [
-	    { "label": "Marcel", "href": "/" },
 	    { "label": "About", "href": "/about" },
 	    { "label": "Reprise", "href": "/reprise" },
 	    { "label": "Crew", "href": "/crew" },

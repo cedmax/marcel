@@ -2,7 +2,7 @@
 	<style>
 		@import url(/css/home.css);		
 	</style>
-	<body class="home page page-id-3 page-template page-template-template-showcase-php logo-left logo-left pageheader-layout-left pageheader-big thb-desktop">
+	<body class="home page page-template page-template-template-showcase-php logo-left logo-left pageheader-layout-left pageheader-big thb-desktop">
 		<div id="page">
 			{{> nav}}
 			<div id="thb-home-slides" class="home-page-content-wrapper">
@@ -14,18 +14,17 @@
 					<div class="thb-home-slide-caption">
 						<div class="wrapper">
 							<div class="thb-banner">
-								<h1>Marcel</h1>
+								<h1>{{site-title}}</h1>
 								<div class="thb-paragraph">
-									Marcel is an outcry of grief.<br />
-									<p style="margin-top:8px;font-size:80%!important">winner of the <a href="http://richardmuttaward.co.uk/" style="color:#fff!important;text-decoration:underline">Richard Mutt Award</a></p><br />
-									<a href="/it/about">Italiano</a> <a href="/about">English</a>			
+									{{{tagline}}}<br />
+									{{{content}}}		
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div><!-- /#page -->
+		</div>
 {{> footerscripts }}	
 
 
