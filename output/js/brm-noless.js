@@ -8,6 +8,8 @@ jQuery( 'document' ).ready( function() {
 
 	} );
 
+	jQuery('.mfp-iframe').magnificPopup({type:'iframe'});
+
 	jQuery(".thb-featuredimage-background-container").thb_stretcher({
 		adapt: false
 	});
