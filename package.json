@@ -1,0 +1,16 @@
+{
+  "name": "marcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "rm -rf ./output/* && ./node_modules/punch/bin/punch s",
+    "build": "./node_modules/punch/bin/punch g --blank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:cedmax/marcel.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
