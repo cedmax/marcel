@@ -6192,8 +6192,12 @@ form .required {
 
 
 .home .thb-paragraph p {
-  margin-top:8px;font-size:80%!important
+  margin-top:8px;font-size:80%
 }
+.home .thb-paragraph a:not([href="http://richardmuttaward.co.uk/"]) {
+  font-size:120%;
+}
+
 .home .thb-paragraph a[href="http://richardmuttaward.co.uk/"] {
   color:#fff!important;text-decoration:underline
 }

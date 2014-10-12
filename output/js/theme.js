@@ -147,17 +147,6 @@ var thb_moving = false,
 
 		if( $('body').hasClass('page-template-template-showcase-php') ) {
 			HomePageSlider.init();
-
-			$(window).resize(function() {
-				HomePageSlider.positionElements();
-			});
-
-			$.thb.loadImage( $(".header-container"), {
-				allLoaded: function() {
-					HomePageSlider.positionElements();
-				}
-			} );
-		
 		}
 
 		// Footer stripe
@@ -193,37 +182,6 @@ var thb_moving = false,
 			this.bindEvents();
 			this.showHideControls();
 			this.loadFrontImage();
-		},
-
-		positionElements: function() {
-			var $w = $(window),
-				header_height = $(".header-container").outerHeight() + ($("#wpadminbar").length ? 28 : 0),
-				footer_height = $(".home-footer-container").outerHeight(),
-				diff = parseInt( (footer_height - header_height) / 2, 10 );
-
-			if( !footer_height ) {
-				footer_height = 48;
-			}
-
-			HomePageSlider.captions.css({
-				'top' : header_height,
-				'bottom' : footer_height
-			});
-
-			if( $("html").hasClass("no-csstransforms") ) {
-				HomePageSlider.banners.each(function() {
-					$(this).css("margin-top", - ($(this).outerHeight() / 2) + diff );
-				});
-			}
-			else {
-				HomePageSlider.banners.each(function() {
-					$(this).css("margin-top", diff );
-				});
-			}
-
-			HomePageSlider.pagerContainer.css({
-				bottom: footer_height
-			});
 		},
 
 		loadFrontImage: function() {
