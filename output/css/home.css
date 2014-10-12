@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'a_love_of_thunderregular';
+    src: url('f/a_love_of_thunder-webfont.eot');
+    src: url('f/a_love_of_thunder-webfont.eot?#iefix') format('embedded-opentype'),
+         url('f/a_love_of_thunder-webfont.woff') format('woff'),
+         url('f/a_love_of_thunder-webfont.ttf') format('truetype'),
+         url('f/a_love_of_thunder-webfont.svg#a_love_of_thunderregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { height: 100%; height: calc(100% - 28px); }
+
+.page-template-template-showcase-php #thb-home-slides .thb-home-slide[data-i="0"] .thb-home-slide-overlay {
+	background-color: ;
+
+	opacity: 0.3;
+	-khtml-opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter: alpha(opacity=30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
