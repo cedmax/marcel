@@ -12,5 +12,8 @@
     "url": "git@bitbucket.org:cedmax/marcel.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "punch": "^0.5.45"
+  }
 }
