@@ -1,4 +1,4 @@
-In 2014 Edinburgh Fringe hosted 3,193 shows (<a href="https://www.edfringe.com/media/news/get-unbored-with-the-edinburgh-festival-fringe-2014-programme-launched" target="_blank">source</a>). Someone liked Marcel, someone didn't, but getting 4 reviews in 2 weeks it's definitely meaningful.<br/><br/>
+In 2014 Edinburgh Fringe hosted 3,193 shows (<a href="https://www.edfringe.com/media/news/get-unbored-with-the-edinburgh-festival-fringe-2014-programme-launched" target="_blank">source</a>). Someone liked Marcel, someone didn't, but getting 4 reviews in 2 weeks is definitely meaningful.<br/><br/>
 
 <blockquote class="main"> What I have in mind is that art may be bad, good or indifferent, but, whatever adjective is used, we must call it art, and bad art is still art in the same way that a bad emotion is still an emotion.<cite><a href="http://www.wisdomportal.com/Cinema-Machine/Duchamp-CreativeAct.html" target="_blank">Marcel Duchamp</a></cite> </blockquote>
 

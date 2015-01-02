@@ -1,4 +1,4 @@
-Il Fringe di Edimburgo, nel 2014, ha ospitato 3.193 spettacoli (<a href="https://www.edfringe.com/media/news/get-unbored-with-the-edinburgh-festival-fringe-2014-programme-launched" target="_blank">fonte</a>). A qualcuno Marcel è piaciuto, a qualcun altro no, ma l'aver ricevuto 4 recensioni in 2 settimane di performance ha sicuramente significato molto.<br/><br/>
+Il Fringe di Edimburgo, nel 2014, ha ospitato 3.193 spettacoli (<a href="https://www.edfringe.com/media/news/get-unbored-with-the-edinburgh-festival-fringe-2014-programme-launched" target="_blank">fonte</a>). A qualcuno Marcel è piaciuto, a qualcun altro no, ma l'aver ricevuto 4 recensioni in 2 settimane di performance è un risultato interessante.<br/><br/>
 
 <blockquote class="main"> What I have in mind is that art may be bad, good or indifferent, but, whatever adjective is used, we must call it art, and bad art is still art in the same way that a bad emotion is still an emotion.<cite><a href="http://www.wisdomportal.com/Cinema-Machine/Duchamp-CreativeAct.html" target="_blank">Marcel Duchamp</a></cite> </blockquote>
 
