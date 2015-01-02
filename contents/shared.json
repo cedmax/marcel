@@ -5,7 +5,7 @@
 	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
 	"navbar": [
 	    { "label": "About", "href": "/about" },
-	    { "label": "Reprise", "href": "/reprise" },
+	    { "label": "Reviews", "href": "/reviews" },
 	    { "label": "Crew", "href": "/crew" },
 	    { "label": "Ethics", "href": "/ethics" },
 	    { "label": "Learning", "href": "/learning" }
