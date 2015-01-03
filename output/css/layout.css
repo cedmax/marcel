@@ -1183,11 +1183,10 @@ img.alignnone {
     .thb-text blockquote p {
       margin-bottom: 0; }
   .thb-text cite {
-    font-style: italic;
-    text-align: right;
-    display: block; 
-    font-size:70%;line-height: 2}
-
+    font-style: italic; }
+  .thb-text blockquote + cite:before,
+  .thb-text blockquote p + cite:before {
+    content: "â"; }
   .thb-text q {
     font-style: italic;
     quotes: "Â«" "Â»" '"' '"'; }
@@ -1358,15 +1357,6 @@ a {
   background-color: #fff;
   line-height: 1.5;
   font-size: 14px; }
-.thb-text blockquote.main{
-  background:#2e3339;
-  color:#fff;
-}
-.thb-text blockquote.main a,.thb-text blockquote.main a:hover {
-  color:#fff;
-} 
-
-
 .thb-text blockquote,
 .textwidget blockquote,
 .comment_body blockquote {
@@ -1377,6 +1367,32 @@ a {
   font-size: 1.3em;
   line-height: 1.4;
   font-weight: 300; }
+
+.thb-text blockquote.main,
+.textwidget blockquote.main,
+.comment_body blockquote.main {
+  color: #fff;
+  background-color: #2e3339;
+}
+
+.thb-text cite,
+.textwidget cite,
+.comment_body cite {
+  display: block;
+  text-align: right;
+  font-size: 75%;
+  line-height: 2
+}
+
+.thb-text blockquote.main a,
+.textwidget blockquote.main a,
+.comment_body blockquote.main a,
+.thb-text blockquote.main a:hover,
+.textwidget blockquote.main a:hover,
+.comment_body blockquote.main a:hover {
+  color:#fff;
+}
+
 
   .thb-text blockquote:before,
   .textwidget blockquote:before,
@@ -2178,7 +2194,176 @@ form .comment-form-comment label {
     color: gray;
     border-color: gray; }
 
-
+#comments {
+  margin-bottom: 24px; }
+  #comments .comment-awaiting-moderation {
+    margin-top: 12px;
+    display: inline-block;
+    padding: 6px 15px;
+    border: 1px solid #e67e22;
+    background-color: #fee8b5;
+    color: #e67e22;
+    border-radius: 6px; }
+  #comments li.thb-comment, #comments li.thb-pingback {
+    margin-bottom: 48px; }
+  #comments li .comment_leftcol {
+    position: relative; }
+    #comments li .comment_leftcol img {
+      border-radius: 100%;
+      position: relative;
+      border: 2px solid #fff;
+      display: block; }
+  #comments li .comment_rightcol .comment_head {
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    margin-bottom: 5px; }
+    #comments li .comment_rightcol .comment_head p {
+      display: block;
+      float: left;
+      margin-top: 3px; }
+      #comments li .comment_rightcol .comment_head p span {
+        text-transform: none;
+        font-style: italic;
+        letter-spacing: 0; }
+        #comments li .comment_rightcol .comment_head p span.user {
+          font-size: 18px;
+          line-height: 1.1em;
+          font-weight: bold;
+          font-weight: 900;
+          letter-spacing: -1px;
+          font-style: normal;
+          color: #333;
+          margin-right: 20px; }
+  #comments li .comment_rightcol .comment_body {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0; }
+    #comments li .comment_rightcol .comment_body > *:first-child {
+      margin-top: 0 !important; }
+    #comments li .comment_rightcol .comment_body > *:last-child {
+      margin-bottom: 0 !important; }
+    #comments li .comment_rightcol .comment_body blockquote, #comments li .comment_rightcol .comment_body dl, #comments li .comment_rightcol .comment_body ol, #comments li .comment_rightcol .comment_body p, #comments li .comment_rightcol .comment_body pre, #comments li .comment_rightcol .comment_body table, #comments li .comment_rightcol .comment_body ul {
+      margin-bottom: 20px; }
+      #comments li .comment_rightcol .comment_body blockquote:first-child, #comments li .comment_rightcol .comment_body dl:first-child, #comments li .comment_rightcol .comment_body ol:first-child, #comments li .comment_rightcol .comment_body p:first-child, #comments li .comment_rightcol .comment_body pre:first-child, #comments li .comment_rightcol .comment_body table:first-child, #comments li .comment_rightcol .comment_body ul:first-child {
+        margin-top: 0 !important; }
+      #comments li .comment_rightcol .comment_body blockquote:last-child, #comments li .comment_rightcol .comment_body dl:last-child, #comments li .comment_rightcol .comment_body ol:last-child, #comments li .comment_rightcol .comment_body p:last-child, #comments li .comment_rightcol .comment_body pre:last-child, #comments li .comment_rightcol .comment_body table:last-child, #comments li .comment_rightcol .comment_body ul:last-child {
+        margin-bottom: 0 !important; }
+    #comments li .comment_rightcol .comment_body blockquote {
+      clear: both; }
+      #comments li .comment_rightcol .comment_body blockquote p {
+        margin-bottom: 0; }
+    #comments li .comment_rightcol .comment_body cite {
+      font-style: italic; }
+    #comments li .comment_rightcol .comment_body blockquote + cite:before,
+    #comments li .comment_rightcol .comment_body blockquote p + cite:before {
+      content: "â"; }
+    #comments li .comment_rightcol .comment_body q {
+      font-style: italic;
+      quotes: "Â«" "Â»" '"' '"'; }
+      #comments li .comment_rightcol .comment_body q:before {
+        content: open-quote; }
+      #comments li .comment_rightcol .comment_body q:after {
+        content: close-quote; }
+    #comments li .comment_rightcol .comment_body p {
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto; }
+    #comments li .comment_rightcol .comment_body .bigger {
+      font-size: 150%;
+      line-height: 1.3; }
+    #comments li .comment_rightcol .comment_body ul {
+      list-style: disc inside; }
+    #comments li .comment_rightcol .comment_body ol {
+      list-style: decimal inside; }
+    #comments li .comment_rightcol .comment_body li ul, #comments li .comment_rightcol .comment_body li ol {
+      margin-left: 1.5em;
+      margin-bottom: 0; }
+    #comments li .comment_rightcol .comment_body table {
+      width: 100%; }
+      #comments li .comment_rightcol .comment_body table caption {
+        font-style: italic; }
+      #comments li .comment_rightcol .comment_body table th {
+        font-weight: bold; }
+      #comments li .comment_rightcol .comment_body table tr:nth-child(even) td {
+        background: rgba(0, 0, 0, 0.02); }
+    #comments li .comment_rightcol .comment_body abbr[title], #comments li .comment_rightcol .comment_body acronym[title] {
+      border-bottom: 1px dotted;
+      cursor: help; }
+    #comments li .comment_rightcol .comment_body address {
+      font-style: normal; }
+    #comments li .comment_rightcol .comment_body .amp, #comments li .comment_rightcol .comment_body abbr.amp {
+      border-bottom: none;
+      cursor: default;
+      font-style: italic; }
+    #comments li .comment_rightcol .comment_body abbr, #comments li .comment_rightcol .comment_body acronym, #comments li .comment_rightcol .comment_body .caps {
+      font-variant: small-caps;
+      letter-spacing: .1em;
+      text-transform: lowercase; }
+    #comments li .comment_rightcol .comment_body pre {
+      line-height: 1; }
+    #comments li .comment_rightcol .comment_body pre, #comments li .comment_rightcol .comment_body code, #comments li .comment_rightcol .comment_body kbd, #comments li .comment_rightcol .comment_body samp, #comments li .comment_rightcol .comment_body var {
+      font-family: Monaco, Consolas, Courier, "Courier New", monospace; }
+    #comments li .comment_rightcol .comment_body pre, #comments li .comment_rightcol .comment_body code {
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap;
+      white-space: -o-pre-wrap;
+      overflow-x: auto;
+      overflow-y: hidden; }
+    #comments li .comment_rightcol .comment_body del {
+      text-decoration: line-through; }
+    #comments li .comment_rightcol .comment_body ins {
+      text-decoration: underline; }
+    #comments li .comment_rightcol .comment_body em, #comments li .comment_rightcol .comment_body i {
+      font-style: italic; }
+    #comments li .comment_rightcol .comment_body strong, #comments li .comment_rightcol .comment_body b {
+      font-weight: bold; }
+    #comments li .comment_rightcol .comment_body .thb-highlight {
+      background-color: yellow; }
+    #comments li .comment_rightcol .comment_body .wp-caption-text {
+      margin-bottom: 10px; }
+    #comments li .comment_rightcol .comment_body .aligncenter {
+      margin: 20px auto; }
+    #comments li .comment_rightcol .comment_body img {
+      max-width: 100%;
+      height: auto; }
+    #comments li .comment_rightcol .comment_body .map img {
+      max-width: none; }
+  #comments li #respond {
+    *zoom: 1;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px; }
+    #comments li #respond:after, #comments li #respond:before {
+      content: "";
+      display: table; }
+    #comments li #respond:after {
+      clear: both; }
+    #comments li #respond #reply-title {
+      margin-top: 0;
+      padding-top: 0;
+      background: none; }
+      #comments li #respond #reply-title small {
+        float: right;
+        font-weight: normal;
+        font-size: 14px; }
+    #comments li #respond .form-submit {
+      margin-bottom: 5px; }
+  #comments ul.children li.thb-comment .comment_leftcol:after {
+    content: "q";
+    font-family: "icons";
+    display: block;
+    position: absolute;
+    color: #999;
+    padding: 5px;
+    text-align: center;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    left: -87.5%;
+    top: 27.34375%; }
 
 .page-template-template-blog-stream-php #stream-container {
   overflow: visible !important; }
