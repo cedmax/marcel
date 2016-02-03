@@ -1,7 +1,3 @@
-Marcel wanted to be a performance/installation inspired by Duchamp and “The Wizard of Oz”, (born in the recession of the late ‘800), crossing the concept of contemporary crisis, which forces us to re-invent, deconstruct, thing again to the world and re-use its wastes.
-
-A crisis which allows wizards, good-natured poseurs and pretenders, to exist.
-
 We wanted to create an installation.
 
 But Dadaism won the day and we started stuttering.
