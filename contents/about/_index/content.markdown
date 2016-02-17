@@ -1,13 +1,6 @@
 # VOL. II
 ## POINT DE FUITE - VANISHING POINT
 
-On stage:  
-**11th and 12th May 2016**  
-8pm, [Cat's Back](http://www.thecatsback.com/)  
-
-**24th June 2016**  
-7.30pm, [Rich Mix](http://www.richmix.org.uk/visit/how-to-get-here/)
-
 _Point de fuite - Vanishing point_ is NOT another cheesy show about immigrants! "Vanishing Point" is a wicked cocktail of fiercely ironic performance laced with hilariously surreal buffoonery. The show investigates the way the European Media talks about immigration and puts our reaction in the spotlight.
 
 Developed and devised using current Media articles, the show deftly fuses puppetry, technology, an old Pierrot, physical humour, audience participation and a sharp view on today's world to make you sit up and think, as you laugh.
