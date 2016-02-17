@@ -1243,9 +1243,9 @@ img.alignnone {
     text-decoration: line-through; }
   .thb-text ins {
     text-decoration: underline; }
-  .thb-text em, .thb-text i {
+  .thb-text em, .thb-text i, .widget em{
     font-style: italic; }
-  .thb-text strong, .thb-text b {
+  .thb-text strong, .thb-text b, .widget strong{
     font-weight: bold; }
   .thb-text .thb-highlight {
     background-color: yellow; }
@@ -2854,7 +2854,7 @@ form .comment-form-comment label {
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  
+
 .page-template-template-portfolio-php .thb-navigation {
   clear: both;
   margin-top: 0; }
@@ -4911,7 +4911,7 @@ form .required {
   #thb-portfolio-filter .loader {
     right: 20px; }
 
- 
+
   .page-template-template-portfolio-php .item .data {
     padding-left: 20px; }
   .page-template-template-portfolio-php #filterlist {
@@ -5343,7 +5343,7 @@ form .required {
     .responsive_768 .thb-photogallery-container li,
     .responsive_768 #thb-portfolio-container li {
       margin-bottom: 40px; }
-   
+
     .responsive_768 .thb-navigation .nav-next {
       margin-right: 20px; }
     .responsive_768 .thb-navigation .nav-previous {
@@ -5364,7 +5364,7 @@ form .required {
       padding-right: 40px; }
     .responsive_768 #thb-portfolio-filter .loader {
       right: 20px; }
-   
+
     .responsive_768 .page-template-template-portfolio-php .item .data {
       padding-left: 20px; }
     .responsive_768 .page-template-template-portfolio-php #filterlist {
@@ -6205,7 +6205,7 @@ form .required {
 
 
             #thb-featuredimage-background .thb-featuredimage-background-overlay {
-    
+
     opacity: 0.3;
     -khtml-opacity: 0.3;
     -moz-opacity: 0.3;
@@ -6226,3 +6226,7 @@ form .required {
 .home .thb-paragraph a[href="http://richardmuttaward.co.uk/"] {
   color:#fff!important;text-decoration:underline
 }
+
+#next_dates {max-width: 200px;margin-left:auto;margin-right: auto }
+#next_dates h3 { font-size:120% }
+#next_dates a { text-decoration: underline }
