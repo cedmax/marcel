@@ -1,6 +1,9 @@
-	
+
 <aside class="sidebar " id="thb-sidebar-main">
-	<section id="thb_video_widget-2" class="widget widget_thb_video_widget">
+    <section id="next_dates" class="widget" style="text-align:left">
+			{{{aside_content}}}
+    </section>
+    <section id="thb_video_widget-2" class="widget widget_thb_video_widget">
         {{#videos}}
             <a href="http://vimeo.com/{{id}}" class="mfp-iframe">
                 <img src="{{image}}" />
@@ -9,8 +12,8 @@
     </section>
     <section id="socialinks-2" class="widget socialink">
         <p class="social">
-            <a href="https://www.facebook.com/ursamaiorteatro" title="Facebook Profile"><img src="/img/facebook_small.png" alt="Facebook"/></a> 
-            <a href="http://twitter.com/ursamaiorteatro" title="Twitter Profile"><img src="/img/twitter_small.png" alt="Twitter"/></a> 
+            <a href="https://www.facebook.com/ursamaiorteatro" title="Facebook Profile"><img src="/img/facebook_small.png" alt="Facebook"/></a>
+            <a href="http://twitter.com/ursamaiorteatro" title="Twitter Profile"><img src="/img/twitter_small.png" alt="Twitter"/></a>
             <a href="javascript:window.location.href = 'mailto:in' + ['fo','umtea'].join('@') + 'tro.it'" title="Email Address"><img src="/img/email_small.png" alt="Email"/></a>
         </p>
     </section>
@@ -18,7 +21,7 @@
         <header>
             <h1 class="widgettitle"><a href="/en/support">Support the Project</a></h1>
         </header>
-        
+
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <div class="paypal-donations">
                 <input type="hidden" name="cmd" value="_donations" />
@@ -31,5 +34,5 @@
                 <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
             </div>
         </form>
-    </section>	
+    </section>
 </aside>

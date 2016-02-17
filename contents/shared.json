@@ -11,7 +11,6 @@
 	    { "label": "Learning", "href": "/learning" }
 	],
 	"videos": [
-		{"id": "107247689", "image": "http://i.vimeocdn.com/video/490631629_200x150.jpg"},
-		{"id": "78274295", "image": "http://i.vimeocdn.com/video/453652029_200x150.jpg"}
+		{"id": "107247689", "image": "http://i.vimeocdn.com/video/490631629_200x150.jpg" }
 	]
 }
