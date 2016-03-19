@@ -2,7 +2,7 @@
 <br/>
 
 **11th and 12th May 2016**  
-8pm, [Cat's Back](http://www.thecatsback.com/)  
+8pm, [Wandsworth Fringe](http://wandsworthfringe.com/2016/event/point-de-fuite-vanishing-point)
 <br/>
 
 **24th June 2016**  
