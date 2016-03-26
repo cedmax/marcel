@@ -4,7 +4,7 @@ Theatre is great when it tells something more than what you can read in a script
 
 Marcel works on the opposite as a Goldoni: it doesn’t start from a classic to make it contemporary, but it tries to show the archetype of the contemporary history.
 
-All the Italian contemporary history is based on the Italian national obsession, Mr Berlusconi (who has obsessed the international press as well), who was able to change through his  media the concepts of women, of success, of morality, of right and wrong. 
+<!-- All the Italian contemporary history is based on the Italian national obsession, Mr Berlusconi (who has obsessed the international press as well), who was able to change through his  media the concepts of women, of success, of morality, of right and wrong.  -->
 
 Theatre should lead the spectators to reflect, no matter how.
 

@@ -4,7 +4,7 @@ Il teatro si fa grande quando racconta qualcosa di più di ciò che si può legg
 
 Marcel però fa un percorso inverso: non parte da un classico per renderlo contemporaneo ma prova a mettere in scena gli archetipi della storia contemporanea.
 
-Tutta la storia più recente dell’Italia è basata sull’ossessione nazionale, Silvio Berlusconi (che ha ossessionato allo stesso modo i quotidiani di tutto il mondo), che è stato in grado di trasformare attraverso i suoi media i concetti di donna, di successo, di moralità, di giusto e sbagliato.
+<!-- Tutta la storia più recente dell’Italia è basata sull’ossessione nazionale, Silvio Berlusconi (che ha ossessionato allo stesso modo i quotidiani di tutto il mondo), che è stato in grado di trasformare attraverso i suoi media i concetti di donna, di successo, di moralità, di giusto e sbagliato. -->
 
 Il teatro dovrebbe portare lo spettatore a riflettere, a prescindere dal genere a cui appartiene.
 

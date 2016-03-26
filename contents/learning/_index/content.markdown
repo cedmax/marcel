@@ -1,8 +1,15 @@
 Marcel wants to be the starting point. It’s a suggestion for people to know more about the world they are living in.  
 Here you can find some interesting link to read more about our topics.  
 
-# VOL. I
-## Italian politics as a work of art</h1>
+# VOL. II
+## POINT DE FUITE - VANISHING POINT
+
+[Migration Observatory - 8 August 2013](http://www.migrationobservatory.ox.ac.uk/reports/migration-news)
+
+[Article19 - Refugees - What's the Story (pdf)](https://www.article19.org/data/files/pdfs/publications/refugees-what-s-the-story-.pdf)
+
+## VOL. I
+### Italian politics as a work of art</h1>
 
 [Time world &#8211; 20 January 2011](http://content.time.com/time/world/article/0,8599,2043352,00.html)  
 [The Guardian – 18 February 2011](http://www.theguardian.com/lifeandstyle/2011/feb/18/fighting-back-against-berlusconi-italian-women)  
