@@ -8,6 +8,10 @@ Here you can find some interesting link to read more about our topics.
 
 [Article19 - Refugees - What's the Story (pdf)](https://www.article19.org/data/files/pdfs/publications/refugees-what-s-the-story-.pdf)
 
+[Daily Mail And The Sun Blasted For 'Sheer Hypocrisy' Over Drowned Aylan Kurdi Front Page](http://www.huffingtonpost.co.uk/2015/09/03/daily-mail-migrant-refugee-aylan-kurdi_n_8081424.html)
+
+[Greece: Spare a thought for British tourists on Kos whose holidays are being ruined by boat migrants](http://www.ibtimes.co.uk/greece-spare-thought-british-tourists-kos-whose-holidays-are-being-ruined-by-boat-migrants-1503524)
+
 ## VOL. I
 ### Italian politics as a work of art</h1>
 

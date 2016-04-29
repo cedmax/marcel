@@ -6,7 +6,7 @@
 <br/><br/>
 
 **24th June 2016**  
-7.30pm,  [Rich Mix](http://www.richmix.org.uk/visit/how-to-get-here/)
+7.30pm,  [Rich Mix](https://www.richmix.org.uk/node/433/spektrix/seats/29222)
 
 <style>
 
