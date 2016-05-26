@@ -1,7 +1,7 @@
 # VOL. II
 ## POINT DE FUITE - VANISHING POINT
 
-[Cut the Moose](http://cutmoose.com) è una nuova collaborazione nata tra la regista Irene Ros ed  Helen Ainsworth, artista di teatro di figura.
+[Cut Moose](http://cutmoose.com) è una nuova collaborazione nata tra la regista Irene Ros ed  Helen Ainsworth, artista di teatro di figura.
 
 La collaborazione è dedicata alla creazione di un teatro tagliente e irritante, che sia visivamente stimolante, sostanzialmente piacevole e spesso surreale. Point de fuite - Vanishing point è il primo progetto di Cut the Moose, secondo di una serie iniziata da Irene Ros per studiare come il lavoro di  Marcel Duchamp può essere avvicinato, oggi, attraverso il teatro.
 
