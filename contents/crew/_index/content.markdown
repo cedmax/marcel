@@ -2,7 +2,7 @@
 ## POINT DE FUITE - VANISHING POINT
 
 [Cut Moose](http://cutmoose.com) is a new collaboration founded by the director _Irene Ros_ and puppeteer _Helen Ainsworth_.
-The collaboration is dedicated to creating tough provoking theatre that is visually stimulating, essentially entertaining and often surreal. Point de fuite - Vanishing point is the first _Cut the Moose_'s project and it is the second in a series begun by director Ros investigating how the work of Marcel Duchamp can be approached nowadays through theatre.
+The collaboration is dedicated to creating thought provoking theatre that is visually stimulating, essentially entertaining and often surreal. Point de fuite - Vanishing point is the first _Cut Moose_'s project and it is the second in a series begun by director Ros investigating how the work of Marcel Duchamp can be approached nowadays through theatre.
 
 ## VOL. I
 ### ITALIAN POLITICS AS A WORK OF ART

@@ -1,16 +1,17 @@
 {
-	"site-title": "Marcel",
-	"seo": "Marcel",
-	"tagline":"Marcel is an outcry of grief.",
-	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
-	"navbar": [
-	    { "label": "About", "href": "/about" },
-	    { "label": "Reviews", "href": "/reviews" },
-	    { "label": "Crew", "href": "/crew" },
-	    { "label": "Ethics", "href": "/ethics" },
-	    { "label": "Learning", "href": "/learning" }
-	],
-	"videos": [
-		{"id": "107247689", "image": "http://i.vimeocdn.com/video/490631629_200x150.jpg" }
-	]
+  "site-title": "Marcel",
+  "seo": "Marcel",
+  "tagline":"Marcel is an outcry of grief.",
+  "footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
+  "navbar": [
+  { "label": "About", "href": "/about" },
+  { "label": "Reviews", "href": "/reviews" },
+  { "label": "Crew", "href": "/crew" },
+  { "label": "Ethics", "href": "/ethics" },
+  { "label": "Learning", "href": "/learning" }
+  ],
+  "videos": [
+  {"id": "172879057", "image": "https://i.vimeocdn.com/video/578867004_200x150.jpg" },
+  {"id": "107247689", "image":  "https://i.vimeocdn.com/video/490631629_200x150.jpg" }
+  ]
 }

@@ -23,3 +23,4 @@
 
 <blockquote class="main">The analyses that have been put forward are not necessarily of any value, since I have not offered any explanation myself. [...] What I intended is of no interest; what is interesting is the effect the work has on the spectator. <cite><a href="http://www.theartnewspaper.com/articles/An-interview-with-Marcel-Duchamp/29278">Marcel Duchamp</a></cite></blockquote>
  -->
+ 
