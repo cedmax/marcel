@@ -15,7 +15,8 @@
   "author": "",
   "license": "ISC",
   "resolutions": {
-    "mime": "1.*"
+    "mime": "1.*",
+    "uglify-js": "2.2.3"
   },
   "devDependencies": {
     "contentful-static": "^1.2.12",
