@@ -1,17 +1,17 @@
 require('dotenv').config();
-var _ = require('lodash');
-var fs = require('fs');
-var mkdirp = require('mkdirp');
-var contentfulStatic = require('contentful-static');
-var PATH = 'contents';
+const _ = require('lodash');
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+const contentfulStatic = require('contentful-static');
+const PATH = 'contents';
 const defaultLang = 'en-GB';
 
 function generateLocalPagesContent(pages, path, lang){
-  _.each(pages, function(page){
+  _.each(pages, (page) => {
     page = page.fields;
 
-    var folderPath = `${path}/${_.kebabCase(page.title)}`;
-    var mdFolderPath = `${folderPath}/_index`;
+    const folderPath = `${path}/${_.kebabCase(page.title)}`;
+    const mdFolderPath = `${folderPath}/_index`;
     mkdirp.sync(folderPath);
     mkdirp.sync(mdFolderPath);
 
@@ -22,19 +22,19 @@ function generateLocalPagesContent(pages, path, lang){
     delete page.content;
     delete page.more;
 
-    page.lang = lang.split('-')[0] || lang;
+    page.lang = (lang ===defaultLang) ? '' : lang;
     page.langCode = lang;
     fs.writeFileSync(`${folderPath}/index.json`, JSON.stringify(page, null, 2), 'UTF-8');
   })
 }
 
 function generateLocalSectionsContent(sections, path){
-  _.each(sections, function(section){
+  _.each(sections, (section) => {
     section = section.fields;
-    var folderPath = `${path}/_shared`
+    const folderPath = `${path}/_shared`
 
     mkdirp.sync(folderPath);
-    var title = _.kebabCase(section.title);
+    const title = _.kebabCase(section.title);
     fs.writeFileSync(`${folderPath}/${title}.markdown`, section.content, 'UTF-8');
   })
 }
@@ -45,20 +45,20 @@ function sync(space, accessToken){
     accessToken: accessToken
   });
 
-  contentfulStatic.sync(function(err, json) {
+  contentfulStatic.sync((err, json) => {
       if(err) {
           console.log('contentful-static: data could not be fetched');
           return false;
       }
 
-      var languages = Object.keys(json.entries);
+      const languages = Object.keys(json.entries);
       
       languages.forEach((lang) => {
-        var content = json.entries[lang];
-        var pages = _.filter(content, function(entry){
+        const content = json.entries[lang];
+        const pages = _.filter(content, function(entry){
           return entry.sys.contentType.sys.id === 'page'
         });
-        var sections = _.filter(content, function(entry){
+        const sections = _.filter(content, function(entry){
           return entry.sys.contentType.sys.id === 'section'
         });
 
