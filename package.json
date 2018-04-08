@@ -1,28 +1,14 @@
 {
   "name": "marcel",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "deploy",
   "scripts": {
-    "content": "node scripts/fetch_content",
-    "live": "rm -rf ./output/* && ./node_modules/punch/bin/punch s",
-    "build": "npm run content && ./node_modules/punch/bin/punch g --blank"
+    "build": "codeship_restart_build"
   },
   "repository": {
     "type": "git",
     "url": "git@bitbucket.org:cedmax/marcel.git"
   },
   "author": "",
-  "license": "ISC",
-  "resolutions": {
-    "mime": "1.*",
-    "uglify-js": "2.2.3"
-  },
-  "devDependencies": {
-    "contentful-static": "^1.2.12",
-    "dotenv": "^5.0.1",
-    "lodash": "^4.13.1",
-    "mkdirp": "^0.5.1",
-    "punch": "^0.5.45"
-  }
+  "license": "ISC"
 }
