@@ -6,7 +6,7 @@
   "scripts": {
     "content": "node scripts/fetch_content",
     "live": "rm -rf ./output/* && ./node_modules/punch/bin/punch s",
-    "build": "npm run content && ./node_modules/punch/bin/punch g --blank"
+    "build": "npm run content && ./node_modules/punch/bin/punch g --blank && copy _redirects ./output"
   },
   "repository": {
     "type": "git",
